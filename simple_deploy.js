@@ -7,7 +7,7 @@ var config = require('./config');
 
 
 var gitPull = 'git pull origin master';
-var foreverRestart = 'forever restartall';
+var foreverRestart = 'forever restartall --plain';
 
 var server = http.createServer(function(req, res) {
   if (config.secret === req.url) {
