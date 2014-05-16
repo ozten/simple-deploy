@@ -11,7 +11,7 @@ Do this on your remote server:
 
 Edit config.js, using a password generator and make a really long string that is URL friendly. Also change port # or whatever else...
 
-    forever start simple_deploy.js
+    nohup node simple_deploy.js&
 
 ## Github setup
 
