@@ -39,7 +39,6 @@ var server = http.createServer(function(req, res) {
       });
     });
   } else {
-    console.log('Got _' + req.url + '_ wanted _' + config.secret + '_');
     setTimeout(function() {
       res.statusCode = 403;
       res.end('Access Denied');
