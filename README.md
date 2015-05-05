@@ -11,7 +11,13 @@ Do this on your remote server:
 
 Edit config.js, using a password generator and make a really long string that is URL friendly. Also change port # or whatever else...
 
+**Note:** `deployDir` should be the path to the root of your git repository which you want updated.
+
+Lastly launch `simple_deploy.js`
+
     nohup node simple_deploy.js&
+
+You probably want to set this up in a way that it will get restarted if you restart the server.
 
 ## Github setup
 
