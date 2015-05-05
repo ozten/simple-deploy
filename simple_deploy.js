@@ -5,8 +5,9 @@ var http = require('http');
 
 var config = require('./config');
 
+config.branch = config.branch || 'master';
 
-var gitPull = 'git pull origin master';
+var gitPull = 'git pull origin ' + config.branch;
 var foreverRestart = 'forever restartall --plain';
 
 var server = http.createServer(function(req, res) {

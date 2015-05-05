@@ -19,6 +19,12 @@ Lastly launch `simple_deploy.js`
 
 You probably want to set this up in a way that it will get restarted if you restart the server.
 
+## Options
+
+These are optional elements in `config.js`.
+
+* branch - defaults to `master`. Branch used during git update.
+
 ## Github setup
 
 1) Github Repo > Settings

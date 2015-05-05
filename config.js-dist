@@ -3,4 +3,6 @@ module.exports = {
   bindAddress: '0.0.0.0',
   secret: '/change-me-to-something-really-long-and-hard-to-guess',
   deployDir: '/home/app/server-name'
+
+  // , branch: 'master'
 };
